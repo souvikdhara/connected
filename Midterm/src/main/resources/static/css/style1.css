@@ -1,0 +1,74 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.media {
+    background-color: white;
+}
+
+.climbr-font{
+    font-family: 'Quicksand', SansSerif, serif;
+}
+
+.header-background {
+    background-color: #ebebeb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 4.2rem;
+}
+
+#centerColumn::-webkit-scrollbar {
+    display: none;
+}
+
+.main-title {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-title .content{
+    position: absolute;
+}
+
+.main-title h1 {
+    font-size: 6rem;
+    margin-bottom: 0;
+    color: #616161;
+}
+
+.main-title nav{
+    padding-left: 3rem;
+}
+
+.login{
+    margin-left: 4rem;
+}
+
+.climbr {
+    font-weight: bold;
+}
+
+.time {
+    padding-top: 0.4rem;
+}
+
+.likeForm label:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 990px){
+    .right-column, .left-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 770px){
+    .left-column, .currentUser{
+        display: none;
+    }
+}
